@@ -1,0 +1,1232 @@
+*{
+    margin: 0;
+    font-family: Work Sans;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+/*line-height: 66px;*/
+.header{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.header__img--size{
+    width: 146px;
+    height: 52px;
+}
+.header__container{
+    visibility: hidden;
+}
+.header__burger--size{
+    width: 40px;
+    height: 28px;
+}
+.banner__img{
+    display: none;
+}
+.banner{
+    width: 100%;
+
+}
+.banner__container{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-left: 20px;
+}
+.banner__container__tittle{
+    font-style: normal;
+    font-weight: normal;
+    line-height: 45px;
+    font-size: 38px;
+    margin-top: 117px;
+    color: #2F2F2F;
+}
+.banner__container__tittle__span{
+    color: #717CFF;
+}
+.banner__container__text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 38px;
+    margin-top: 15px;
+    color: #7D7D7D;
+}
+.banner__container__button{
+    display: flex;
+    flex-direction: row;
+    background: #717CFF;
+    border-radius: 11px;
+    width: 214px;
+    height: 64px;
+    font-size: 18px;
+    margin-top: 55px;
+}
+.banner__container__button--decoration{
+    display: flex;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    padding-left: 32px;
+    padding-top: 23px;
+    height: 18px;
+}
+.banner__container__button__img--size{
+    width: 18px;
+    height: 17px;
+    margin-top: 24px;
+    margin-left: 17px;
+}
+.banner__container__socials{
+    margin-top: 56px;
+    margin-bottom: 60px;
+    width: 102px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.banner__container__socials__facebook--size{
+    width: 11px;
+    height: 20px;
+}
+.banner__container__socials__twitter--size{
+    width: 20px;
+    height: 17px;
+    margin-top: 3px;
+}
+.banner__container__socials__instagram--size{
+    width: 21px;
+    height: 22px;
+}
+.Universities{
+    height: 585px;
+    width: 100%;
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Universities__title{
+    margin-top: 55px;
+    font-size: 23px;
+}
+.Universities__images{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 55px;
+}
+.Universities__images__macquarie--size{
+    width: 223px;
+    height: 68px;
+}
+.Universities__images__charles--size{
+    width: 248px;
+    height: 64px;
+    margin-top: 40px;
+}
+.Universities__images__newcastle--size{
+    width: 222px;
+    height: 79px;
+    margin-top: 40px;
+}
+.Universities__images__trobe--size{
+    width: 272px;
+    height: 62px;
+    margin-top: 40px;
+}
+.testimonial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 98px;
+}
+.testimonial__title{
+    font-size: 37px;
+    color: #373737;
+    margin-top: 116px;
+    font-weight: 600;
+}
+.testimonial__text{
+    font-size: 18px;
+    color: #7D7D7D;
+    margin-top: 25px;
+    max-width: 335px;
+    width: 90%;
+    line-height: 38px;
+    text-align: center;
+}
+.testimonial__cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -15px;
+}
+.testimonial__cards__individual{
+    width: 90%;
+    height: 518px;
+    box-shadow: 0px 0px 77px rgba(0, 0, 0, 0.0588235);
+    border-radius: 29px;
+    margin-top: 65px;
+}
+.testimonial__cards__individual__profile{
+    display: flex;
+    flex-direction: row;
+    margin-left: 34px;
+    margin-top: 39px;
+}
+.testimonial__cards__individual__profile__img--size{
+    width: 67px;
+    height: 62px;
+    border-radius: 12px;
+}
+.testimonial__cards__individual__profile__data{
+    margin-left: 21px;
+}
+.testimonial__cards__individual__profile__data__name{
+    font-size: 22px;
+    color: #37474F;
+    font-weight: bold;
+}
+.testimonial__cards__individual__profile__data__profesion{
+    margin-top: 5px;
+    font-size: 18px;
+    color: #37474F;
+}
+.testimonial__cards__individual__description{
+    margin-left: 34px;
+    margin-right: 37px;
+    margin-top: 30px;
+    font-size: 18px;
+    color: #37474F;
+    opacity: 0.72;
+    line-height: 31px;
+}
+.news{
+    height: 2051px;
+    width: 100%;
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.news__title{
+    font-size: 37px;
+    color: #373737;
+    margin-top: 104px;
+}
+.news__text{
+    font-size: 18px;
+    color: #7D7D7D;
+    max-width: 335px;
+    width: 90%;
+    margin-top: 25px;
+    text-align: center;
+}
+.news__cards{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 675px;
+    width: 92%;
+    margin-top: 6px;
+    align-items: center;
+}
+.news__cards__individual{
+    max-width: 335px;
+    width: 90%;
+    height: 401px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 6px 42px rgba(0, 0, 0, 0.103884);
+    border-radius: 10px;
+    margin-top: 46px;
+}
+.news__cards__individual__date{
+    display: flex;
+    flex-direction:row ;
+    margin-top: 31px;
+    margin-left: 26px;
+}
+.news__cards__individual__date__icon{
+    width: 15px;
+    height: 14px;
+    margin-top: 2px;
+}
+.news__cards__individual__date__number{
+    font-size: 16px;
+    color: #565656;
+    margin-left: 11px;
+}
+.news__cards__individual__text{
+    font-size: 22px;
+    color: #252525;
+    margin-left: 27px;
+    margin-top: 19px;
+    margin-right: 26px;
+    line-height: 26px;
+}
+.news__button{
+    display: flex;
+    flex-direction: row;
+    margin-top: 146px;
+    width: 189px;
+    height: 64px;
+    background-color: #717CFF;
+    border-radius: 11px;
+    color: #FFFFFF;
+}
+.news__button--decoration{
+    display: flex;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-left: 34px;
+    font-size: 18px;
+    height: 18px;
+    margin-top: 23px;
+}
+.news__button__img--size{
+    width: 18px;
+    height: 16px;
+    margin-top: 24px;
+    margin-left: 15px;
+}
+.footer{
+    height: 672px;
+    background-color: #717CFF;
+    color: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer__container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 64px;
+    height: 563px;
+    width: 90%;
+}
+.footer__columns{
+    display: flex;
+    flex-direction:column;
+    align-items: left;
+}
+.footer__column1{
+    width: 100%;
+}
+.footer__img--size{
+    width: 160px;
+    height: 57px;
+}
+.footer__column1__text{
+    font-size: 18px;
+    margin-top: 26px;
+    width: 100%;
+    margin-bottom: 50px;
+    line-height: 32px;
+}
+.footer__column2-3{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+}
+.footer__column2{
+    display: flex;
+    flex-direction: column;
+}
+.footer__column2__text{
+    margin-bottom: 20px;
+    height: 16px;  
+}
+.footer__column3__text{
+    margin-bottom: 20px;
+    height: 16px;  
+}
+.footer__column3{
+    display: flex;
+    flex-direction: column;
+}
+.footer__column4{
+    width: 101px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 45px;
+    margin-bottom: 16px;
+}
+.footer__column4__logo__facebook{
+    width: 9px;
+    height: 16px;
+}
+.footer__column4__logo__twitter{
+    width: 16px;
+    height: 14px;
+}
+.footer__column4__logo__instagram{
+    width: 16px;
+    height: 16px;
+}
+
+/* Medium Design */
+@media screen and (min-width:600px){
+	.header{
+        display: flex;
+        flex-direction: row;
+        margin-top: 40px;
+        justify-content: space-between;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .header__img--size{
+        width: 146px;
+        height: 52px;
+    }
+    .header__container{
+        visibility: hidden;
+    }
+    .header__burger--size{
+        width: 40px;
+        height: 28px;
+    }
+    .banner__img{
+        display: none;
+    }
+    .banner{
+        width: 100%;
+    }
+    .banner__container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+    }
+    .banner__container__tittle{
+        width: 300px;
+        height: 154px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 38px;
+        line-height: 66px;
+        margin-top: 117px;
+        color: #2F2F2F;
+        text-align: center;
+    }
+    .banner__container__tittle__span{
+        color: #717CFF;
+    }
+    .banner__container__text{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 38px;
+        margin-top: 15px;
+        width: 580px;
+        text-align: center;
+    }
+    .banner__container__button{
+        display: flex;
+        flex-direction: row;
+        background: #717CFF;
+        border-radius: 11px;
+        width: 214px;
+        height: 64px;
+        font-size: 22px;
+        margin-top: 42px;
+    }
+    .banner__container__button--decoration{
+        display: flex;
+        text-decoration: none;
+        color: #FFFFFF;
+        font-size: 18px;
+        padding-left: 32px;
+        padding-top: 23px;
+        height: 18px;
+    }
+    .banner__container__button__img--size{
+        width: 18px;
+        height: 17px;
+        margin-top: 24px;
+        margin-left: 17px;
+    }
+    .banner__container__socials{
+        margin-top: 56px;
+        margin-bottom: 56px;
+        width: 102px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .banner__container__socials__facebook--size{
+        width: 11px;
+        height: 20px;
+    }
+    .banner__container__socials__twitter--size{
+        width: 20px;
+        height: 17px;
+        margin-top: 3px;
+    }
+    .banner__container__socials__instagram--size{
+        width: 21px;
+        height: 22px;
+    }
+    .Universities{
+        height: 580px;
+        width: 100%;
+        background-color: #FAFAFA;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Universities__title{
+        margin-top: 55px;
+        font-size: 23px;
+    }
+    .Universities__images{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .Universities__images__macquarie--size{
+        width: 223px;
+        height: 68px;
+    }
+    .Universities__images__charles--size{
+        width: 248px;
+        height: 64px;
+        margin-top: 40px;
+    }
+    .Universities__images__newcastle--size{
+        width: 222px;
+        height: 79px;
+        margin-top: 40px;
+    }
+    .Universities__images__trobe--size{
+        width: 272px;
+        height: 62px;
+        margin-top: 40px;
+    }
+    
+    .testimonial{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 98px;
+    }
+    .testimonial__title{
+        font-size: 37px;
+        color: #373737;
+        margin-top: 110px;
+        font-weight: 600;
+    }
+    .testimonial__text{
+        font-size: 18px;
+        color: #7D7D7D;
+        margin-top: 25px;
+        max-width: 700px;
+        width: 92%;
+        text-align: center;
+        line-height: 38px;
+    }
+    .testimonial__cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -15px;
+    }
+    .testimonial__cards__individual{
+        width: 90%;
+        height: 291px;
+        box-shadow: 0px 0px 77px rgba(0, 0, 0, 0.0588235);
+        border-radius: 29px;
+        margin-top: 65px;
+    }
+    .testimonial__cards__individual__profile{
+        display: flex;
+        flex-direction: row;
+        margin-left: 34px;
+        margin-top: 38px;
+    }
+    .testimonial__cards__individual__profile__img--size{
+        width: 67px;
+        height: 62px;
+        border-radius: 12px;
+    }
+    .testimonial__cards__individual__profile__data{
+        margin-left: 21px;
+    }
+    .testimonial__cards__individual__profile__data__name{
+        font-size: 22px;
+        color: #37474F;
+        font-weight: bold;
+    }
+    .testimonial__cards__individual__profile__data__profesion{
+        margin-top: 5px;
+        font-size: 18px;
+        color: #37474F;
+    }
+    .testimonial__cards__individual__description{
+        margin-left: 34px;
+        margin-right: 37px;
+        margin-top: 39px;
+        font-size: 18px;
+        color: #37474F;
+        opacity: 0.72;
+        line-height: 31px;
+    }
+    .news{
+        height: 1549px;
+        width: 100%;
+        background-color: #FAFAFA;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .news__title{
+        font-size: 37px;
+        color: #373737;
+        margin-top: 103px;
+    }
+    .news__text{
+        font-size: 18px;
+        color: #7D7D7D;
+        max-width: 630px;
+        width: 92%;
+        margin-top: 25px;
+        text-align: center;
+        line-height: 38px;
+    }
+    .news__cards{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 675px;
+        width: 92%;
+        justify-content: space-between;
+        margin-top: 6px;
+    }
+    .news__cards__individual{
+        width: 313px;
+        height: 412px;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0px 6px 42px rgba(0, 0, 0, 0.103884);
+        border-radius: 10px;
+        margin-top: 45px;
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+    .news__cards__individual__date{
+        display: flex;
+        flex-direction:row ;
+        margin-top: 29px;
+        margin-left: 25px;
+    }
+    .news__cards__individual__date__icon{
+        width: 14px;
+        height: 14px;
+        margin-top: 2px;
+    }
+    .news__cards__individual__date__number{
+        font-size: 16px;
+        color: #565656;
+        margin-left: 11px;
+    }
+    .news__cards__individual__text{
+        font-size: 22px;
+        color: #252525;
+        margin-left: 25px;
+        margin-top: 19px;
+        line-height: 26px;
+    }
+    .news__button{
+        display: flex;
+        flex-direction: row;
+        margin-top: 149px;
+        width: 189px;
+        height: 64px;
+        background-color: #717CFF;
+        border-radius: 11px;
+        color: #FFFFFF;
+    }
+    .news__button--decoration{
+        display: flex;
+        text-decoration: none;
+        color: #FFFFFF;
+        margin-left: 34px;
+        font-size: 18px;
+        height: 18px;
+        margin-top: 23px;
+    }
+    .news__button__img--size{
+        width: 18px;
+        height: 16px;
+        margin-top: 24px;
+        margin-left: 15px;
+    }
+    .footer{
+        background-color: #717CFF;
+        color: #EEEEEE;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    .footer__container{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        padding-top: 63px;
+        margin-right: 20px;
+        padding-bottom: 45px;
+        height: 305px;
+        width: 92%;
+    }
+    .footer__columns{
+        display: flex;
+        flex-direction:row;
+        align-items: left;
+    }
+    .footer__column1{
+        width: 440px;
+        margin-right: 9%;
+    }
+    .footer__img--size{
+        width: 160px;
+        height: 57px;
+    }
+    .footer__column1__text{
+        font-size: 18px;
+        margin-top: 26px;
+        width: 100%;
+        margin-bottom: 126px;
+        line-height: 32px;
+    }
+    .footer__column2-3{
+        width: 157px;
+        display: flex;
+        flex-direction: column;
+        margin-right: 11%;
+        font-size: 16px;
+    }
+    .footer__column2{
+        width: 228px;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer__column2__text{
+        margin-bottom: 20px;
+        height: 16px;  
+    }
+    .footer__column3__text{
+        margin-bottom: 20px;
+        height: 16px;  
+    }
+    .footer__column3{
+        width: 228px;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer__column4{
+        width: 101px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+        height: 267px;
+    }
+    .footer__column4__logo__facebook{
+        width: 9px;
+        height: 16px;
+    }
+    .footer__column4__logo__twitter{
+        width: 16px;
+        height: 14px;
+    }
+    .footer__column4__logo__instagram{
+        width: 16px;
+        height: 16px;
+    }
+
+}
+
+/* Large Design */
+
+@media screen and (min-width:920px){
+	.header{
+        display: flex;
+        flex-direction: row;
+        margin-top: 40px;
+        height: 100%;
+        Justify-content: Space-between;
+    }
+    .header__img{
+        margin-left: 8%;
+    }
+    .header__img--size{
+        width: 50%;
+        height: auto;
+        
+    }
+    .header__burger{
+        display: none;
+    }
+    .header__container{
+        visibility: visible;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1,1%;
+        line-height: 20px;
+        margin-top: 9px;
+        display: flex;
+        flex-direction: row;
+        width: 845px;
+    }
+    .header__labels{
+        text-decoration: none;
+        color: #373737;
+        margin-right: 4.5%;
+    }
+    .header__labels__apply{
+        border: 2px solid #717CFF;
+        box-sizing: border-box;
+        border-radius: 11px;
+        padding: 9px 33px 9px 33px;
+        text-decoration: none;
+        color: #373737;
+        margin-right: 65px;
+    }
+    .banner{
+        display: flex;
+        flex-direction: row;
+        margin-left: 9%;
+        margin-right: 9%;
+        margin-top: 130px;
+        width: 80%;
+        Justify-content: Space-between;
+    }
+    .banner__img{
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-end;
+    }
+    .banner__img--size{
+        max-width: 470px;
+        max-height: 565px;
+        width: 100%;
+        height: auto;
+    }
+    .banner__container{
+        margin-top: 24px;
+        width: 50%;
+        margin-right: 81px;
+        align-items: initial;
+    }
+    .banner__container__tittle{
+        width: 550px;
+        height: 154px;
+        margin-top: 0;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 56px;
+        line-height: 66px;
+        text-align: left;
+        color: #2F2F2F;
+    }
+    .banner__container__tittle__span{
+        color: #717CFF;
+    }
+    .banner__container__text{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 38px;
+        margin-bottom: 15px;
+        text-align: left;
+        width: 100%;
+        margin-top: 0;
+    }
+    .banner__container__button{
+        display: flex;
+        flex-direction: row;
+        background: #717CFF;
+        border-radius: 11px;
+        width: 262px;
+        height: 64px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 40px;
+        margin-top: 54px;
+        margin-bottom: 115px;
+    }
+    .banner__container__button--decoration{
+        display: flex;
+        text-decoration: none;
+        color: #FFFFFF;
+        padding-left: 34px;
+        padding-top: 12px;
+    }
+    .banner__container__button__img--size{
+        width: 18px;
+        height: 16px;
+        margin-top: 24px;
+        margin-left: 40px;
+    }
+    .banner__container__socials{
+        display: flex;
+        flex-direction: row;
+        width: 108px;
+        justify-content: space-between;
+        margin: 0;
+        margin-bottom: 60px;
+    
+    }
+    .banner__container__socials__facebook--size{
+        width: 11px;
+        height: 20px;
+    }
+    .banner__container__socials__twitter--size{
+        width: 20px;
+        height: 19px;
+        margin-top: 1px;
+    }
+    .banner__container__socials__instagram--size{
+        width: 21px;
+        height: 22px;
+    }
+    .Universities{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 423px;
+        background-color: #FAFAFA;
+        align-items: center;
+    }
+    .Universities__title{
+        margin-top: 55px;
+        font-size: 23px;
+        color: #373737;
+        margin-bottom: 94px;
+    }
+    .Universities__images{
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        max-width: 1184px;
+        Justify-content: Space-between;
+        margin-bottom: 111px;
+        margin-top: 0;
+    }
+    .Universities__images__macquarie--size{
+        max-width: 223px;
+        max-height: 68px;
+        width: 20%;
+        height: auto;
+    }
+    .Universities__images__charles--size{
+        max-width: 248px;
+        max-height: 64px;
+        margin-top: 0;
+        width: 20%;
+        height: auto;
+    }
+    .Universities__images__newcastle--size{
+        max-width: 222px;
+        max-height: 79px;
+        margin-top: 0;
+        width: 20%;
+        height: auto;
+    }
+    .Universities__images__trobe--size{
+        max-width: 272px;
+        max-height: 62px;
+        margin-top: 0;
+        width: 20%;
+        height: auto;
+    }
+    .Universities__slides{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 107px;
+        
+    }
+    .slides--main{
+        width: 14px;
+        height: 14px;
+        background-color: #717CFF;
+        border-radius: 100px;
+    
+    }
+    .slides--others{
+        width: 10px;
+        height: 10px;
+        background-color: #7C7C7C;
+        opacity:0.3;
+        border-radius: 100px;
+    }
+    .testimonial{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .testimonial__title{
+        margin-top: 115px;
+        font-size: 37px;
+        color: #373737;
+        font-weight: bold;
+    }
+    .testimonial__text{
+        margin-top: 25px;
+        width: 880px;
+        font-size: 22px;
+        margin-bottom: 142px;
+        color: #7D7D7D;
+        text-align: center;
+    }
+    .testimonial__cards{
+        margin-bottom: 86px;
+        display: flex;
+        flex-direction: row;
+        width: 92%;
+        max-width: 1143px;
+        justify-content: space-between;
+    }
+    .testimonial__cards__individual{
+        display: flex;
+        flex-direction: column;
+        max-width: 539px;
+        width: 50%;
+        height: 332px;
+        box-shadow: 0px 0px 77px rgba(0, 0, 0, 0.0588235);
+        border-radius: 29px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .testimonial__cards__individual__profile{
+        display: flex;
+        flex-direction: row;
+        margin-top: 39px;
+        margin-left: 36px;
+    }
+    .testimonial__cards__individual__profile__img--size{
+        width: 66px;
+        height: 62px;
+        border-radius: 12px;
+    }
+    .testimonial__cards__individual__profile__data{
+        margin-left: 21px;
+    }
+    .testimonial__cards__individual__profile__data__name{
+        font-size: 22px;
+        color: #37474F;
+        font-weight: bold;
+    }
+    .testimonial__cards__individual__profile__data__profesion{
+        font-size: 18px;
+        color: #37474F;
+        margin-top: 4px;
+    }
+    .testimonial__cards__individual__description{
+        margin-left: 34px;
+        margin-top: 30px;
+        margin-right: 36px;
+        margin-bottom: 46px;
+        font-size: 18px;
+        color: #37474F;
+        opacity: 0.7;
+    }
+    .testimonial__slides{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 107px;
+        margin-bottom: 98px;
+    }
+    .news{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: #FAFAFA;
+        align-items: center;
+        height: auto;
+    }
+    .news__title{
+        margin-top: 102px;
+        font-size: 37px;
+        color: #373737;
+        font-weight: bold;
+    }
+    .news__text{
+        margin-top: 25px;
+        width: 920px;
+        font-size: 22px;
+        margin-bottom: 142px;
+        color: #7D7D7D;
+        text-align: center;
+    }
+    .news__cards{
+        display: flex;
+        flex-direction: row;
+        max-width: 1124px;
+        width: 92%;
+        justify-content: space-between;
+        
+    }
+    .news__cards__individual{
+        max-width: 344px;
+        width: 28%;
+        height: 406px;
+        display: flex;
+        flex-direction: column;
+        background-color: #FFFFFF;
+        box-shadow: 0px 6px 42px rgba(0, 0, 0, 0.103884);
+        border-radius: 10px;
+    }
+    .news__cards__individual__img{
+        width: 100%;
+        height: 224px;
+    }
+    .news__cards__individual__date{
+        display: flex;
+        flex-direction: row;
+        margin-left: 26px;
+        margin-top: 31px;
+    }
+    .news__cards__individual__date__icon{
+        width: 15px;
+        height: 15px;
+        margin-top: 2px;
+    }
+    .news__cards__individual__date__number{
+        margin-left: 15px;
+        color: #565656;
+        font-size: 16px;
+    }
+    .news__cards__individual__text{
+        margin-top: 17px;
+        margin-left: 26px;
+        margin-right: 27px;
+        font-size: 22px;
+        color: #252525;
+    }
+    .news__button{
+        display: flex;
+        flex-direction: row;
+        background: #717CFF;
+        border-radius: 11px;
+        width: 226px;
+        height: 64px;
+        font-size: 22px;
+        line-height: 40px;
+        margin-top: 146px;
+        margin-bottom: 124px;
+    }
+    .news__button--decoration{
+        display: flex;
+        text-decoration: none;
+        color: #FFFFFF;
+        margin-left: 34px;
+        height: 22px;
+        margin-top: 12px;
+    }
+    .news__button__img--size{
+        width: 18px;
+        height: 16px;
+        margin-top: 23px;
+        margin-left: 33px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        height: 346px;
+        width:100%;
+        background-color: #717CFF;
+        color: #EEEEEE;
+        align-items: center;
+        font-size: 18px;
+    }
+    .footer__container{
+        padding: 0;
+        width: 90%;
+        max-width: 1021px;
+    }
+    .footer__columns{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin-top: 64px;
+        height: 205px;
+    }
+    .footer__column1{
+        width: 473px;
+        margin-right: 0;
+    }
+    .footer__img--size{
+        width: 160px;
+        height: 57px;
+    }
+    .footer__column1__text{
+        width: 343px;
+        margin-top: 26px;
+    }
+    .footer__column2-3{
+        display: flex;
+        flex-direction: row;
+        max-width: 581px;
+        width: 50%;
+        margin-right: 0;
+    }
+    .footer__column2{
+        display: flex;
+        flex-direction: column;
+        width: 267px;
+    }
+    .footer__column2__text{
+        margin-bottom: 28px;
+        
+    }
+    .footer__column3{
+        display: flex;
+        flex-direction: column;
+        width: 314px;
+    }
+    .footer__column3__text{
+        margin-bottom: 28px;
+    }
+    .footer__column4{
+        width: 97px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 170px;
+        
+    }
+    .footer__column4__logo__facebook{
+        width: 9px;
+        height: 16px;
+        Align-self: flex-end
+    }
+    .footer__column4__logo__twitter{
+        width: 16px;
+        height: 14px;
+        Align-self: flex-end
+    }
+    .footer__column4__logo__instagram{
+        width: 16px;
+        height: 16px;
+        Align-self: flex-end
+    }
+}
